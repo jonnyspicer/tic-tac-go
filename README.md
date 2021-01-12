@@ -14,7 +14,7 @@ every time 😊.
 ### Installation 🚀
 
 If you don't already have Go installed on your machine, follow the
-instructions found [here.](https://golang.org/doc/install){:target="_blank"} Clone the repo, navigate to the directory and run ```go run main.go``` then simply follow the instructions
+instructions found [here.](https://golang.org/doc/install) Clone the repo, navigate to the directory and run ```go run main.go``` then simply follow the instructions
 in your CLI.
 
 ### Possible Improvements 🛠
@@ -25,5 +25,5 @@ Some of the most obvious ones are:
 - Add functionality for two human players;
 - Add logic to computer moves (even simple heuristics like blocks if two in a row);
 - Refactor the board state to be a multidimensional array, which would make it less tedious to check if there's a winner;
-- Refactor the way winner and draw checking works (I completely forgot about draws until I'd finished the rest of the code, so it was tacked on at the end...);
+- Refactor the way winner and draw checking works (I completely forgot about draws until I'd finished the rest of the code, so it was tacked on at the end);
 - Abstract some of the functionality out of main(), at the moment it's doing more than one thing.
