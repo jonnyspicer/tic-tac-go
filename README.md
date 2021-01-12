@@ -22,6 +22,8 @@ in your CLI.
 Obviously there are a lot of things that could be improved here, I am a Go novice after all.
 Some of the most obvious ones are:
 
+- Add error handling;
+- Add tests;
 - Add functionality for two human players;
 - Add logic to computer moves (even simple heuristics like blocks if two in a row);
 - Refactor the board state to be a multidimensional array, which would make it less tedious to check if there's a winner;
